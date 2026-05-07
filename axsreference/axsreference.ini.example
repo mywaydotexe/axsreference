@@ -1,0 +1,21 @@
+[axsreference]
+apitoken          = YOUR_PAPERLESS_API_TOKEN
+paperlessurl      = http://your-paperless-instance:8000
+barcodeidentify   = true
+barcodefield      = Barcode
+organisationfield = Organisation
+locationfield     = Location
+numberfield       = Reference Number
+
+[organisations]
+ACM = ACME Corporation
+EXA = Example Organisation
+SOC = Soccer Club
+FAM = Family
+
+[locations]
+WH1 = Warehouse 1
+HO1 = Home Office Mike
+HO2 = Home Office Adam
+A = Binder
+X = Shredder
